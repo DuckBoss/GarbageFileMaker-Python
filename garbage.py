@@ -6,16 +6,6 @@ from string import ascii_lowercase
 def main():
 	start = dt.datetime.now()
 	try:
-		'''
-		maxLen = int(sys.argv[1])*1000
-		percAvg = 0
-
-		with open("out.garbage", "wb") as outFile:
-			for x in range(maxLen):
-				percAvg = 100.0 * (x/maxLen)
-				print("[{0:.2f}%]".format(percAvg))
-				outFile.write(bytes(1))
-		'''
 		outFile = open("Output.txt", "w")
 		maxLen = int(sys.argv[1])*1000
 		percAvg = 0
